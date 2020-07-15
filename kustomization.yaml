@@ -1,7 +1,2 @@
-secretGenerator:
-- name: mysql-pass
-  literals:
-  - password=gurpreet
 resources:
-  - mysql-deployment.yaml
-  - wordpress-deployment.yaml
+  - webapp-deployment.yaml
